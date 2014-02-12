@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78BDD9B918ABD9CC0090AF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9B818ABD9CC0090AF68 /* Foundation.framework */; };
+		78BDD9BB18ABD9CC0090AF68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9BA18ABD9CC0090AF68 /* CoreGraphics.framework */; };
+		78BDD9BD18ABD9CC0090AF68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9BC18ABD9CC0090AF68 /* UIKit.framework */; };
+		78BDD9BF18ABD9CC0090AF68 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9BE18ABD9CC0090AF68 /* SpriteKit.framework */; };
+		78BDD9C518ABD9CC0090AF68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9C318ABD9CC0090AF68 /* InfoPlist.strings */; };
+		78BDD9C718ABD9CC0090AF68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9C618ABD9CC0090AF68 /* main.m */; };
+		78BDD9CB18ABD9CC0090AF68 /* GertrudeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9CA18ABD9CC0090AF68 /* GertrudeAppDelegate.m */; };
+		78BDD9CE18ABD9CC0090AF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9CC18ABD9CC0090AF68 /* Main.storyboard */; };
+		78BDD9D118ABD9CC0090AF68 /* GertrudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9D018ABD9CC0090AF68 /* GertrudeViewController.m */; };
+		78BDD9D418ABD9CC0090AF68 /* GertrudeMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9D318ABD9CC0090AF68 /* GertrudeMyScene.m */; };
+		78BDD9D618ABD9CC0090AF68 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9D518ABD9CC0090AF68 /* Spaceship.png */; };
+		78BDD9D818ABD9CC0090AF68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9D718ABD9CC0090AF68 /* Images.xcassets */; };
+		78BDD9DF18ABD9CC0090AF68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9DE18ABD9CC0090AF68 /* XCTest.framework */; };
+		78BDD9E018ABD9CC0090AF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9B818ABD9CC0090AF68 /* Foundation.framework */; };
+		78BDD9E118ABD9CC0090AF68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9BC18ABD9CC0090AF68 /* UIKit.framework */; };
+		78BDD9E918ABD9CC0090AF68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9E718ABD9CC0090AF68 /* InfoPlist.strings */; };
+		78BDD9EB18ABD9CC0090AF68 /* GertrudeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9EA18ABD9CC0090AF68 /* GertrudeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78BDD9E218ABD9CC0090AF68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BDD9AD18ABD9CB0090AF68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BDD9B418ABD9CB0090AF68;
+			remoteInfo = Gertrude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78BDD9B518ABD9CB0090AF68 /* Gertrude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gertrude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BDD9B818ABD9CC0090AF68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78BDD9BA18ABD9CC0090AF68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78BDD9BC18ABD9CC0090AF68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78BDD9BE18ABD9CC0090AF68 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		78BDD9C218ABD9CC0090AF68 /* Gertrude-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gertrude-Info.plist"; sourceTree = "<group>"; };
+		78BDD9C418ABD9CC0090AF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BDD9C618ABD9CC0090AF68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78BDD9C818ABD9CC0090AF68 /* Gertrude-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gertrude-Prefix.pch"; sourceTree = "<group>"; };
+		78BDD9C918ABD9CC0090AF68 /* GertrudeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GertrudeAppDelegate.h; sourceTree = "<group>"; };
+		78BDD9CA18ABD9CC0090AF68 /* GertrudeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GertrudeAppDelegate.m; sourceTree = "<group>"; };
+		78BDD9CD18ABD9CC0090AF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78BDD9CF18ABD9CC0090AF68 /* GertrudeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GertrudeViewController.h; sourceTree = "<group>"; };
+		78BDD9D018ABD9CC0090AF68 /* GertrudeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GertrudeViewController.m; sourceTree = "<group>"; };
+		78BDD9D218ABD9CC0090AF68 /* GertrudeMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GertrudeMyScene.h; sourceTree = "<group>"; };
+		78BDD9D318ABD9CC0090AF68 /* GertrudeMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GertrudeMyScene.m; sourceTree = "<group>"; };
+		78BDD9D518ABD9CC0090AF68 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		78BDD9D718ABD9CC0090AF68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78BDD9DD18ABD9CC0090AF68 /* GertrudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GertrudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BDD9DE18ABD9CC0090AF68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78BDD9E618ABD9CC0090AF68 /* GertrudeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GertrudeTests-Info.plist"; sourceTree = "<group>"; };
+		78BDD9E818ABD9CC0090AF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BDD9EA18ABD9CC0090AF68 /* GertrudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GertrudeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BDD9B218ABD9CB0090AF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD9BB18ABD9CC0090AF68 /* CoreGraphics.framework in Frameworks */,
+				78BDD9BD18ABD9CC0090AF68 /* UIKit.framework in Frameworks */,
+				78BDD9BF18ABD9CC0090AF68 /* SpriteKit.framework in Frameworks */,
+				78BDD9B918ABD9CC0090AF68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDD9DA18ABD9CC0090AF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD9DF18ABD9CC0090AF68 /* XCTest.framework in Frameworks */,
+				78BDD9E118ABD9CC0090AF68 /* UIKit.framework in Frameworks */,
+				78BDD9E018ABD9CC0090AF68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BDD9AC18ABD9CB0090AF68 = {
+			isa = PBXGroup;
+			children = (
+				78BDD9C018ABD9CC0090AF68 /* Gertrude */,
+				78BDD9E418ABD9CC0090AF68 /* GertrudeTests */,
+				78BDD9B718ABD9CB0090AF68 /* Frameworks */,
+				78BDD9B618ABD9CB0090AF68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78BDD9B618ABD9CB0090AF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BDD9B518ABD9CB0090AF68 /* Gertrude.app */,
+				78BDD9DD18ABD9CC0090AF68 /* GertrudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BDD9B718ABD9CB0090AF68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BDD9B818ABD9CC0090AF68 /* Foundation.framework */,
+				78BDD9BA18ABD9CC0090AF68 /* CoreGraphics.framework */,
+				78BDD9BC18ABD9CC0090AF68 /* UIKit.framework */,
+				78BDD9BE18ABD9CC0090AF68 /* SpriteKit.framework */,
+				78BDD9DE18ABD9CC0090AF68 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BDD9C018ABD9CC0090AF68 /* Gertrude */ = {
+			isa = PBXGroup;
+			children = (
+				78BDD9C918ABD9CC0090AF68 /* GertrudeAppDelegate.h */,
+				78BDD9CA18ABD9CC0090AF68 /* GertrudeAppDelegate.m */,
+				78BDD9CC18ABD9CC0090AF68 /* Main.storyboard */,
+				78BDD9CF18ABD9CC0090AF68 /* GertrudeViewController.h */,
+				78BDD9D018ABD9CC0090AF68 /* GertrudeViewController.m */,
+				78BDD9D218ABD9CC0090AF68 /* GertrudeMyScene.h */,
+				78BDD9D318ABD9CC0090AF68 /* GertrudeMyScene.m */,
+				78BDD9D518ABD9CC0090AF68 /* Spaceship.png */,
+				78BDD9D718ABD9CC0090AF68 /* Images.xcassets */,
+				78BDD9C118ABD9CC0090AF68 /* Supporting Files */,
+			);
+			path = Gertrude;
+			sourceTree = "<group>";
+		};
+		78BDD9C118ABD9CC0090AF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BDD9C218ABD9CC0090AF68 /* Gertrude-Info.plist */,
+				78BDD9C318ABD9CC0090AF68 /* InfoPlist.strings */,
+				78BDD9C618ABD9CC0090AF68 /* main.m */,
+				78BDD9C818ABD9CC0090AF68 /* Gertrude-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BDD9E418ABD9CC0090AF68 /* GertrudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				78BDD9EA18ABD9CC0090AF68 /* GertrudeTests.m */,
+				78BDD9E518ABD9CC0090AF68 /* Supporting Files */,
+			);
+			path = GertrudeTests;
+			sourceTree = "<group>";
+		};
+		78BDD9E518ABD9CC0090AF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BDD9E618ABD9CC0090AF68 /* GertrudeTests-Info.plist */,
+				78BDD9E718ABD9CC0090AF68 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BDD9B418ABD9CB0090AF68 /* Gertrude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BDD9EE18ABD9CC0090AF68 /* Build configuration list for PBXNativeTarget "Gertrude" */;
+			buildPhases = (
+				78BDD9B118ABD9CB0090AF68 /* Sources */,
+				78BDD9B218ABD9CB0090AF68 /* Frameworks */,
+				78BDD9B318ABD9CB0090AF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gertrude;
+			productName = Gertrude;
+			productReference = 78BDD9B518ABD9CB0090AF68 /* Gertrude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78BDD9DC18ABD9CC0090AF68 /* GertrudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BDD9F118ABD9CC0090AF68 /* Build configuration list for PBXNativeTarget "GertrudeTests" */;
+			buildPhases = (
+				78BDD9D918ABD9CC0090AF68 /* Sources */,
+				78BDD9DA18ABD9CC0090AF68 /* Frameworks */,
+				78BDD9DB18ABD9CC0090AF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BDD9E318ABD9CC0090AF68 /* PBXTargetDependency */,
+			);
+			name = GertrudeTests;
+			productName = GertrudeTests;
+			productReference = 78BDD9DD18ABD9CC0090AF68 /* GertrudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78BDD9AD18ABD9CB0090AF68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Gertrude;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nicholas Barr";
+				TargetAttributes = {
+					78BDD9DC18ABD9CC0090AF68 = {
+						TestTargetID = 78BDD9B418ABD9CB0090AF68;
+					};
+				};
+			};
+			buildConfigurationList = 78BDD9B018ABD9CB0090AF68 /* Build configuration list for PBXProject "Gertrude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78BDD9AC18ABD9CB0090AF68;
+			productRefGroup = 78BDD9B618ABD9CB0090AF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78BDD9B418ABD9CB0090AF68 /* Gertrude */,
+				78BDD9DC18ABD9CC0090AF68 /* GertrudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BDD9B318ABD9CB0090AF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD9C518ABD9CC0090AF68 /* InfoPlist.strings in Resources */,
+				78BDD9D818ABD9CC0090AF68 /* Images.xcassets in Resources */,
+				78BDD9D618ABD9CC0090AF68 /* Spaceship.png in Resources */,
+				78BDD9CE18ABD9CC0090AF68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDD9DB18ABD9CC0090AF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD9E918ABD9CC0090AF68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BDD9B118ABD9CB0090AF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD9CB18ABD9CC0090AF68 /* GertrudeAppDelegate.m in Sources */,
+				78BDD9D118ABD9CC0090AF68 /* GertrudeViewController.m in Sources */,
+				78BDD9D418ABD9CC0090AF68 /* GertrudeMyScene.m in Sources */,
+				78BDD9C718ABD9CC0090AF68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDD9D918ABD9CC0090AF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD9EB18ABD9CC0090AF68 /* GertrudeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BDD9E318ABD9CC0090AF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BDD9B418ABD9CB0090AF68 /* Gertrude */;
+			targetProxy = 78BDD9E218ABD9CC0090AF68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78BDD9C318ABD9CC0090AF68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BDD9C418ABD9CC0090AF68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78BDD9CC18ABD9CC0090AF68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BDD9CD18ABD9CC0090AF68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78BDD9E718ABD9CC0090AF68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BDD9E818ABD9CC0090AF68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78BDD9EC18ABD9CC0090AF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78BDD9ED18ABD9CC0090AF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BDD9EF18ABD9CC0090AF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gertrude/Gertrude-Prefix.pch";
+				INFOPLIST_FILE = "Gertrude/Gertrude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78BDD9F018ABD9CC0090AF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gertrude/Gertrude-Prefix.pch";
+				INFOPLIST_FILE = "Gertrude/Gertrude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78BDD9F218ABD9CC0090AF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gertrude.app/Gertrude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gertrude/Gertrude-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GertrudeTests/GertrudeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		78BDD9F318ABD9CC0090AF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gertrude.app/Gertrude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gertrude/Gertrude-Prefix.pch";
+				INFOPLIST_FILE = "GertrudeTests/GertrudeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BDD9B018ABD9CB0090AF68 /* Build configuration list for PBXProject "Gertrude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDD9EC18ABD9CC0090AF68 /* Debug */,
+				78BDD9ED18ABD9CC0090AF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BDD9EE18ABD9CC0090AF68 /* Build configuration list for PBXNativeTarget "Gertrude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDD9EF18ABD9CC0090AF68 /* Debug */,
+				78BDD9F018ABD9CC0090AF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78BDD9F118ABD9CC0090AF68 /* Build configuration list for PBXNativeTarget "GertrudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDD9F218ABD9CC0090AF68 /* Debug */,
+				78BDD9F318ABD9CC0090AF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78BDD9AD18ABD9CB0090AF68 /* Project object */;
+}
