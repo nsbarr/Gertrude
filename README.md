@@ -1,7 +1,7 @@
 Gertrude
 ========
 
-Gertrude is a visual poem designed for the iPhone. 
+Gertrude is a visual poem designed for iOS. 
 
 Gertrude was inspired by these lines in Gertrude Stein's Tender Buttons:
 
