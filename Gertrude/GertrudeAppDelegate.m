@@ -7,6 +7,8 @@
 //
 
 #import "GertrudeAppDelegate.h"
+#import "GertrudeMyScene.h"
+
 
 @implementation GertrudeAppDelegate
 
@@ -36,6 +38,13 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+  //  SKView *view = (SKView *)self.window.rootViewController.view;
+  //  SKScene *gertrudeScene = [[view.scene alloc] initWithSize:self.size];
+    
+  //  SKScene *gertrudeScene  = [[GertrudeMyScene alloc] init];
+  //  [view presentScene:gertrudeScene];
+
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

@@ -17,7 +17,6 @@
 		78BDD9CE18ABD9CC0090AF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9CC18ABD9CC0090AF68 /* Main.storyboard */; };
 		78BDD9D118ABD9CC0090AF68 /* GertrudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9D018ABD9CC0090AF68 /* GertrudeViewController.m */; };
 		78BDD9D418ABD9CC0090AF68 /* GertrudeMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDD9D318ABD9CC0090AF68 /* GertrudeMyScene.m */; };
-		78BDD9D618ABD9CC0090AF68 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9D518ABD9CC0090AF68 /* Spaceship.png */; };
 		78BDD9D818ABD9CC0090AF68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BDD9D718ABD9CC0090AF68 /* Images.xcassets */; };
 		78BDD9DF18ABD9CC0090AF68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9DE18ABD9CC0090AF68 /* XCTest.framework */; };
 		78BDD9E018ABD9CC0090AF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BDD9B818ABD9CC0090AF68 /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		78BDD9D018ABD9CC0090AF68 /* GertrudeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GertrudeViewController.m; sourceTree = "<group>"; };
 		78BDD9D218ABD9CC0090AF68 /* GertrudeMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GertrudeMyScene.h; sourceTree = "<group>"; };
 		78BDD9D318ABD9CC0090AF68 /* GertrudeMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GertrudeMyScene.m; sourceTree = "<group>"; };
-		78BDD9D518ABD9CC0090AF68 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		78BDD9D718ABD9CC0090AF68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78BDD9DD18ABD9CC0090AF68 /* GertrudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GertrudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BDD9DE18ABD9CC0090AF68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +126,6 @@
 				78BDD9D018ABD9CC0090AF68 /* GertrudeViewController.m */,
 				78BDD9D218ABD9CC0090AF68 /* GertrudeMyScene.h */,
 				78BDD9D318ABD9CC0090AF68 /* GertrudeMyScene.m */,
-				78BDD9D518ABD9CC0090AF68 /* Spaceship.png */,
 				78BDD9D718ABD9CC0090AF68 /* Images.xcassets */,
 				78BDD9C118ABD9CC0090AF68 /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			files = (
 				78BDD9C518ABD9CC0090AF68 /* InfoPlist.strings in Resources */,
 				78BDD9D818ABD9CC0090AF68 /* Images.xcassets in Resources */,
-				78BDD9D618ABD9CC0090AF68 /* Spaceship.png in Resources */,
 				78BDD9CE18ABD9CC0090AF68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +473,7 @@
 				78BDD9F018ABD9CC0090AF68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78BDD9F118ABD9CC0090AF68 /* Build configuration list for PBXNativeTarget "GertrudeTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +482,7 @@
 				78BDD9F318ABD9CC0090AF68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
