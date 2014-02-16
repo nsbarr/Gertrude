@@ -30,8 +30,8 @@
         // 8 is 8a, peak morning. 20 is 8p, peak evening
         
         
-        //debug hoursSinceMidnight here:
-        hoursSinceMidnight = 20;
+        // debug hoursSinceMidnight here:
+        // hoursSinceMidnight = 20;
         
         //we'll use these to change the background color
         CGFloat red;
