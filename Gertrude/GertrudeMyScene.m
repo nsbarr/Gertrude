@@ -31,7 +31,7 @@
         
         
         //debug hoursSinceMidnight here:
-        hoursSinceMidnight = 8;
+        hoursSinceMidnight = 20;
         
         //we'll use these to change the background color
         CGFloat red;
