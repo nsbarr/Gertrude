@@ -3,7 +3,7 @@ Gertrude
 
 Gertrude is a visual poem designed for iOS. 
 
-Gertrude was inspired by these lines in Gertrude Stein's <i>Tender Buttons<i>:
+Gertrude is built around these lines in Gertrude Stein's <i>Tender Buttons<i>:
 
 "In the morning there is meaning, in the evening there is feeling..."
 
