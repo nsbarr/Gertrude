@@ -13,4 +13,4 @@ Cheating is discouraged.
 
 Gertrude is almost certainly of no interest from a code perspective.
 
-I would love to see more elegant solutions to the background-color-changing code.
+I would like to see more elegant solutions to the background-color-changing code.
