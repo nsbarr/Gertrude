@@ -39,7 +39,7 @@
         CGFloat blue;
         CGFloat alpha;
         
-        //we'll use this to change the alpha of labels depending on whether it's closer to morning or evening. this is janky math to make sure it works right
+        //we'll use this to change the alpha of labels depending on whether it's closer to morning or evening. this is janky math to make sure it works right :|
         
         if (hoursSinceMidnight <= 20){
             alpha = abs(8-hoursSinceMidnight)*8.3/100;
